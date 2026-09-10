@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build WhatsApp Auto Reply APK
 
 on:
   workflow_dispatch:
@@ -32,5 +32,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: MustafaAI-debug-apk
+          name: WhatsApp-Otomatik-Cevap-apk
           path: app/build/outputs/apk/debug/*.apk
